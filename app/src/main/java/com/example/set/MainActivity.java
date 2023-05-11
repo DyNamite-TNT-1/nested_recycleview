@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         setAdapter = new SetAdapter(sets, MainActivity.this);
         LinearLayoutManager layoutManager
-                = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.VERTICAL, false);
+                = new LinearLayoutManager(MainActivity.this, LinearLayoutManager.HORIZONTAL, false);
         rvSet.setLayoutManager(layoutManager);
 
         rvSet.setAdapter(setAdapter);
